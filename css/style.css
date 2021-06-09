@@ -16,7 +16,7 @@ header img{
     vertical-align: middle;
 }
     
-}
+
  .corpo > button{
     width: 50px;
     height: 20px;
@@ -87,6 +87,7 @@ button{
 .container1{
    padding: 0;
    margin: 0;
+   
 
  
 }
@@ -111,6 +112,7 @@ border-radius: 20px;
 }
 .container1-middle{
     margin-bottom: 0px;
+    
 }
 .container2-middle{
     margin: 10px;
@@ -141,3 +143,16 @@ hr{
     color: rgba(64, 223, 207,0.5);
 }
 
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+    color: turquoise;
+    border: 1px solid turquoise;
+    border-radius: 20px ;
+
+}
