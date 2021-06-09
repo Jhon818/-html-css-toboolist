@@ -33,15 +33,55 @@ div{
   margin-left: 50px;  
   margin-bottom: 10px;
   color: white;
-  font-size: 5px;
+  font-size: 4px;
 }
 
 
 button{
     background-color: green;
-    border-radius: 30px;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+}
+.button button{
+ border-radius: 10px;
 }
 
+.container3 button{
+    background-color: tomato;
+} 
+
+.container1-middle button{
+    background-color: red;
+} 
+
+.container2-middle button{
+    background-color:blueviolet;
+} 
+
+.container3-middle button{
+    background-color:rgb(226, 214, 43);
+} 
+
+.container4-middle button{
+    background-color:rgba(43, 168, 226, 0.226);
+} 
+
+.container1-footer button{
+    background-color:rgba(43, 168, 226, 0.226);
+} 
+
+.container2-footer button{
+    background-color:rgba(19, 75, 100, 0.226);
+} 
+
+.container3-footer button{
+    background-color:rgba(100, 88, 19, 0.226);
+} 
+
+.container4-footer button{
+    background-color:rgba(100, 19, 82, 0.226);
+} 
 
 .container1{
    padding: 0;
