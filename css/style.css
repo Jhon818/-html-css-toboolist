@@ -5,8 +5,8 @@
 }
 main{
     background-color: rgba(129, 114, 114, 0.089);
-    background-size: cover;
-    width: 80%;
+    margin: 5% 10% 10% 10%;
+    
 }
 header{
     font-size: 40px;
@@ -15,29 +15,81 @@ header{
 header img{
     vertical-align: middle;
 }
+
 div{
-    text-align: center;
-    margin-left: 50%;
-    margin-right: 50%; 
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
-button{
+ .corpo > button{
     width: 50px;
     height: 20px;
     color: black;
     font-size: 8px;
-    
 
 }
 
 .bottoni{
-    display: inline;
+  margin-left: 50px;  
+  margin-bottom: 10px;
+  color: white;
+  font-size: 5px;
+}
+
+
+button{
+    background-color: green;
+    border-radius: 30px;
+}
+
+
+.container1{
+   padding: 0;
+   margin: 0;
+
+ 
+}
+.container2{
+    width: 20%;
+    font-size: 15px;
+    height: 20%;
+   
 
 }
-.container{
-    display: inline;
-    
+.container3{
+    margin: 10px;
+
 }
-.container{
-    width: 20%;
+.corpo{
+margin: 0 auto;
+width: 80%;
+background-color:white;
+
+}
+.container1-middle{
+    margin-top: 10px;
+}
+.container2-middle{
+    margin: 10px;
+}
+.container3-middle{
+    margin: 10px;
+}
+.container4-middle{
+    margin: 10px;
+}
+
+.container1-footer{
+    margin: 10px;
+    padding: 0%;
+}
+
+.container2-footer{
+    margin: 10px;
+}
+.container3-footer{
+    margin: 10px;
+}
+.container4-footer{
+    margin: 10px;
 }
