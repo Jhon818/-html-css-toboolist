@@ -3,14 +3,23 @@
     box-sizing: border-box;
     padding: 0%;
 }
+
+
 main{
     background-color: rgba(129, 114, 114, 0.089);
-    margin: 5% 10% 10% 10%;
-    
+    margin: 0;
 }
+
+.background1{
+    background-color: red;
+    margin-top: 40px;
+    width: 100%;
+}
+ /* header  */
 header{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
 }
 header img{
     vertical-align: middle;
@@ -22,8 +31,11 @@ header img{
     height: 20px;
     color: black;
     font-size: 8px;
+    
 
 }
+
+/* bottoni  */
 
 .bottoni{
   margin-left: 50px;  
@@ -47,6 +59,8 @@ button{
 .button button{
  border-radius: 10px;
 }
+
+/*corpo*/
 
 .container3 button{
     background-color: tomato;
@@ -92,10 +106,10 @@ button{
  
 }
 .container2{
-    
-    font-size: 15px;
     margin-bottom: 0px;
     margin-top: 30px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
    
 
 }
@@ -112,7 +126,7 @@ border-radius: 20px;
 }
 .container1-middle{
     margin-bottom: 0px;
-    
+
 }
 .container2-middle{
     margin: 10px;
@@ -142,7 +156,7 @@ border-radius: 20px;
 hr{
     color: rgba(64, 223, 207,0.5);
 }
-
+/* check */
 .dot{
     height: 25px;
     width: 25px;
@@ -154,5 +168,9 @@ hr{
     color: turquoise;
     border: 1px solid turquoise;
     border-radius: 20px ;
+}
 
+#check{
+   font-family: 'Acme', sans-serif;
+    font-size: 20px; 
 }
